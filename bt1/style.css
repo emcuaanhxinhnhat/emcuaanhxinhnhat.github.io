@@ -1,5 +1,22 @@
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+h1,h2 {
+    text-align:center;
+}
+
+.Sanpham {
+    padding:15px;
+    margin:0;
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    
+}
+.Tensanpham { text-decoration: none; color: blueviolet;text-align:center; }
 span { color: crimson;}
 
-.Tensanpham {font-size:25; color: burlywood; text-decoration: none }
+.Sanpham img { width: 250px; height: 250px; display: inline; padding:15px }
 
-img { width: 250px;}
+
