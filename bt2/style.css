@@ -4,6 +4,8 @@
 }
 a {
     text-decoration: none;
+* {
+                                                                                                                                                                                                    box-sizing: :border-box;
 }
 
 ul {
@@ -14,3 +16,4 @@ li {
     display: inline; padding:15px ;
     
 }
+
