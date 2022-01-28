@@ -20,12 +20,15 @@ body {
 }
 .card {
     margin: 15px;
-    box-shadow: 0 2px 3px 1px #888888;
+    
     width: 100% ;
     padding-bottom: 5%;
     background-color: white;
 
     
+}
+.Card:hover{
+    box-shadow: 0 2px 3px 1px #888888;
 }
 img
 {
