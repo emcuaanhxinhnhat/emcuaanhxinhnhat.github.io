@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    background-color: rgb(210, 235, 245);
+}
+.container
+{
+    max-width: 1000px;
+    margin:auto;
+    
+}
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card {
+    margin: 15px;
+    
+    width: 100% ;
+    padding-bottom: 5%;
+    background-color: white;
+
+    
+}
+.Card:hover{
+    box-shadow: 0 2px 3px 1px #888888;
+}
+img
+{
+    max-width: 100% ;
+    border-bottom: 0;
+}
+
+.item {
+    width: 30%;    
+    
+}
+h1
+{
+    text-align: center;
+}
+.course-title{
+    margin : 15px;
+    font-size:  19px; 
+    font-weight: normal;
+
+}
+.course-description{
+   margin : 15px;
+   font-size:  18px; 
+   
+}
+.course-duration{
+    margin: 15px;
+   font-size:  18px; 
+   font-weight: bold;
+   
+}
